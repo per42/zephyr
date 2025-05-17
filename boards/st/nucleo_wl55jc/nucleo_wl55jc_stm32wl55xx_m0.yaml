@@ -1,0 +1,26 @@
+identifier: nucleo_wl55jc/stm32ql55xx/m0
+name: ST Nucleo WL55JC M0
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+ram: 64
+flash: 256
+supported:
+  # - gpio
+  # - i2c
+  # - spi
+  # - arduino_gpio
+  # - arduino_i2c
+  # - arduino_spi
+  # - adc
+  # - dac
+  # - pwm
+  # - counter
+  # - dma
+  # - watchdog
+  # - nvs
+  - lora
+  # - rtc
+vendor: st

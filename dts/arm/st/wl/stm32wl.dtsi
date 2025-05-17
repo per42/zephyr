@@ -2,6 +2,10 @@
  * Copyright (c) 2020-2024 STMicroelectronics
  *
  * SPDX-License-Identifier: Apache-2.0
+ *
+ * - STM32WL3x: M0+ single-core
+ * - STM32WLEx: M4 single-core
+ * - STM32WL5x: M4 and M0+ dual-core
  */
 
 #include <arm/armv7-m.dtsi>
@@ -33,6 +37,11 @@
 			compatible = "arm,cortex-m4";
 			reg = <0>;
 			cpu-power-states = <&stop0 &stop1 &stop2>;
+		};
+
+		cpu1: cpu@1 {
+			compatible = "arm,cortex-m0+";
+			reg = <1>;
 		};
 
 		power-states {

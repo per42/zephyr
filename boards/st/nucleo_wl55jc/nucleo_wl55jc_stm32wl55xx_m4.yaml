@@ -1,5 +1,5 @@
-identifier: nucleo_wl55jc
-name: ST Nucleo WL55JC
+identifier: nucleo_wl55jc/stm32ql55xx/m4
+name: ST Nucleo WL55JC M4
 type: mcu
 arch: arm
 toolchain:

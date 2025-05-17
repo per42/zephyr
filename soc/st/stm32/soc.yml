@@ -232,3 +232,6 @@ family:
     - name: stm32wle5xx
     - name: stm32wl54xx
     - name: stm32wl55xx
+      cpuclusters:
+      - name: m4
+      - name: m0
