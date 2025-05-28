@@ -509,6 +509,7 @@ function(ExternalZephyrProject_Cmake)
       -G${CMAKE_GENERATOR}
         ${CMAKE_ARGS}
       -DFORCED_CONF_FILE:FILEPATH=${dotconfigsysbuild}
+      -DWEST_PYTHON=${PYTHON_EXECUTABLE}
       -B${BINARY_DIR}
       -S${SOURCE_DIR}
     RESULT_VARIABLE   return_val
